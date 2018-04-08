@@ -1,0 +1,28 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js">
+</script>
+<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js">
+</script>
+
+<script type="text/javascript">
+$(function(){
+    $(".flip").flip({
+        trigger: 'click',
+		 axis: 'x'
+    });
+});
+</script>
+</head>
+<body>
+<link href='new2.css' rel='stylesheet'>
+ <div class="flip"> 
+    <div class="front"> 
+        <img src="upload.jpg" alt="" />
+    </div> 
+    <div class="back">
+        <h3>Some Text in the Back!</h3>
+    </div> 
+</div>
+</body>
+   </html>
